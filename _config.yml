@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -27,7 +27,8 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
+  website: https://amauryortega.dev
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -41,16 +42,17 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Docker
+    web_url: https://www.docker.com/
+    image_url: https://cdn.worldvectorlogo.com/logos/docker.svg
 
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Arch Linux
+    web_url: https://www.archlinux.org
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Archlinux-vert-dark.svg/1280px-Archlinux-vert-dark.svg.png
+    
+  - name: CI/CD (GitLab Runner)
+    web_url: https://about.gitlab.com/product/continuous-integration
+    image_url: https://about.gitlab.com/images/ci/gitlab-ci-cd-logo_2x.png
